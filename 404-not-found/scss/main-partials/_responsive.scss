@@ -1,0 +1,20 @@
+@use 'config';
+
+@include config.Desktop {
+	body {
+		.main-content {
+			.main-container {
+				flex-direction: row;
+
+				img {
+					padding-right: 50px;
+				}
+			}
+
+			/* MAIN TITLE SECTION */
+			.main-title-container {
+				padding-left: 60px;
+			}
+		}
+	}
+}
